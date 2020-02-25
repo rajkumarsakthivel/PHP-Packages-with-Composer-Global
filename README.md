@@ -1,5 +1,5 @@
 # PHP-Packages-with-Composer-Global
-Global installation of PHP Packages with Composer
+Useful Global installation of PHP Packages with Composer for all PHP Projects.
 
 ##### Prestissimo
 prestissimo is a composer plugin that downloads packages in parallel to speed up the installation process.
@@ -26,6 +26,11 @@ The PHP Coding Standards Fixer (PHP CS Fixer) tool fixes your code to follow sta
 ```
 composer global require friendsofphp/php-cs-fixer
 ```
+###### PHP Copy/Paste Detector (PHPCPD)
+phpcpd is a Copy/Paste Detector (CPD) for PHP code.
+```
+composer global require sebastian/phpcpd
+```
 ###### PHPUnit
 PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.
 ```
@@ -45,14 +50,8 @@ phpDocumentor is an application that is capable of analyzing your PHP source cod
 ```
 composer global require phpdocumentor/phpdocumentor
 ```
-###### PHP Copy/Paste Detector (PHPCPD)
-phpcpd is a Copy/Paste Detector (CPD) for PHP code.
-```
-composer global require sebastian/phpcpd
-```
 ##### PHPLOC
 phploc is a tool for quickly measuring the size and analyzing the structure of a PHP project.
 ```
 composer global require phploc/phploc
 ```
-
