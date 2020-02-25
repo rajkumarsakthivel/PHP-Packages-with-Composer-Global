@@ -7,7 +7,7 @@ prestissimo is a composer plugin that downloads packages in parallel to speed up
 composer global require hirak/prestissimo
 ```
 ##### PHP Coding Standards Fixer
-The PHP Coding Standards Fixer (PHP CS Fixer) tool fixes your code to follow standards; whether you want to follow PHP coding standards as defined in the PSR-1, PSR-2, etc., or other community driven ones like the Symfony one. You can also define your (team's) style through configuration.
+A tool to automatically fix PHP Coding Standards issues.
 ```
 composer global require friendsofphp/php-cs-fixer
 ```
@@ -32,7 +32,7 @@ Provides a composer plugin for normalizing composer.json
 composer global require --dev ergebnis/composer-normalize
 ```
 ###### PHPUnit
-PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.
+PHPUnit is a programmer-oriented testing framework for PHP.
 ```
 composer global require phpunit/phpunit
 ```
@@ -40,10 +40,6 @@ composer global require phpunit/phpunit
 PHPUnit extension for database interaction testing.
 ```
 composer global require phpunit/dbunit
-```
-##### Phing
-```
-composer global require phing/phing
 ```
 ##### PHP Documentor
 phpDocumentor is an application that is capable of analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.
