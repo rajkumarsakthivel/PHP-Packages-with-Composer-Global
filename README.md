@@ -1,5 +1,5 @@
 # PHP-Packages-with-Composer-Global
-Useful Global installation of PHP Packages with Composer for all PHP Projects.
+Useful Global installation of PHP Packages with Composer for PHP Projects.
 
 ##### Prestissimo
 prestissimo is a composer plugin that downloads packages in parallel to speed up the installation process.
